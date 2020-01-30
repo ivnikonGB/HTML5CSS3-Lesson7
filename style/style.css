@@ -1,0 +1,134 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+}
+
+.logo-line__divider {
+    height: 5px;
+    background-color: #81b300;
+}
+
+.logo-line {
+    padding: 0 37px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.logo-line__logo {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.logo-line__header {
+    color: #333333;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.logo-line__header::first-letter {
+    font-size: 46px;
+    line-height: 46px;
+}
+
+.logo-line__social-menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-line__social {
+    width: 251px;
+    background-color: #81b300;
+    padding: 9px 13px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 15px 15px;
+}
+
+.logo-line__link {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.logo-line__link:hover {
+    background-color: #00acee;
+}
+
+.logo-line__link i {
+    margin-top: 6px;
+}
+
+.logo-line__user-menu-item {
+    color: #81b300;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-decoration: none;
+    padding: 0 7px;
+}
+
+.logo-line__user-menu-item:not(:last-child) {
+    border-right: 1px solid #81b300;
+    
+}
+
+.main-menu-and-search {
+    background-color: #81b300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.main-menu__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.main-menu__link {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.main-menu__link:hover {
+    color: #000000;
+}
+
+.search {
+    display: flex;
+}
+
+.search__input {
+    width: 215px;
+    border: none;
+    font-size: 12px;
+    padding: 9px;
+}
+
+.search__button {
+    background-color: #ffffff;
+    border: none;
+    border-left: 1px solid #dddddd;
+    color: #81b300;
+    text-transform: uppercase;
+}
